@@ -10,8 +10,8 @@
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
         <style>
         #map {
-            width: 800px;
-            height: 600px;
+            width: 1572px;
+            height: 817px;
         }
         </style>
         <title></title>
@@ -28,22 +28,22 @@
         <script src="js/rbush.min.js"></script>
         <script src="js/labelgun.min.js"></script>
         <script src="js/labels.js"></script>
-        <script src="data/d_1.js"></script>
-        <script src="data/d_2.js"></script>
-        <script src="data/d_3.js"></script>
-        <script src="data/d_4.js"></script>
-        <script src="data/d_5.js"></script>
-        <script src="data/d_6.js"></script>
-        <script src="data/d_7.js"></script>
-        <script src="data/d_8.js"></script>
-        <script src="data/d_9.js"></script>
-        <script src="data/d_10.js"></script>
-        <script src="data/d_11.js"></script>
-        <script src="data/d_12.js"></script>
+        <script src="data/d1.js"></script>
+        <script src="data/d2.js"></script>
+        <script src="data/d3.js"></script>
+        <script src="data/d4.js"></script>
+        <script src="data/d5.js"></script>
+        <script src="data/d6.js"></script>
+        <script src="data/d7.js"></script>
+        <script src="data/d8.js"></script>
+        <script src="data/d9.js"></script>
+        <script src="data/d10.js"></script>
+        <script src="data/d11.js"></script>
+        <script src="data/d12.js"></script>
         <script>
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
-        }).fitBounds([[36.66454471948462,8.212153507034216],[77.26208023476696,173.931736207034]]);
+        }).fitBounds([[43.343942839647994,73.00244099496021],[57.024426528527265,114.43233666995977]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -101,7 +101,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/урманов работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -113,7 +113,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/урманов работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -125,19 +125,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/урманов рождение.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                default:
-                    return {
-                pane: 'pane__1',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/урманов (тупиков).svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -202,7 +190,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/сейфуллина.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -214,7 +202,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/сейфуллина переезд.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -226,19 +214,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/сейфуллина рождение.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                default:
-                    return {
-                pane: 'pane__2',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/сейфуллина.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -303,7 +279,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/пушкарев.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -315,7 +291,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/пушкарев переезд.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -327,7 +303,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/пушкарев работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -339,7 +315,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/пушкарев работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -351,7 +327,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/пушкарев переезд.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -363,7 +339,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/пушкарев работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -375,7 +351,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/пушкарев работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -387,19 +363,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/пушкарев рождение.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                default:
-                    return {
-                pane: 'pane__3',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/пушкарев.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -464,7 +428,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/правдухин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -476,7 +440,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/правдухин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -488,7 +452,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/правдухин переезд.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -500,7 +464,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/правдухин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -512,7 +476,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/правдухин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -524,7 +488,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/правдухин рождение.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -536,19 +500,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/правдухин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                default:
-                    return {
-                pane: 'pane__4',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/правдухин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -613,7 +565,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/мартышев работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -625,7 +577,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/мартышев работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -637,7 +589,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/мартышев работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -649,7 +601,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/мартышев рождение.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -661,19 +613,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/мартышев война.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                default:
-                    return {
-                pane: 'pane__5',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/мартыншев.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -738,7 +678,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/лисовский.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -750,7 +690,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/лисовский.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -762,7 +702,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/лисовский путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -774,7 +714,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/лисовский путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -786,7 +726,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/лисовский путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -798,7 +738,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/лисовский путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -810,7 +750,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/лисовский рождение.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -822,19 +762,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/лисовский путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                default:
-                    return {
-                pane: 'pane__6',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/лисовский.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -899,7 +827,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/кравков работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -911,7 +839,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/кравков путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -923,7 +851,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/кравков работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -935,7 +863,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/кравков работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -947,7 +875,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/кравков.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -959,7 +887,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/кравков работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -971,19 +899,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/кравков рождение.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                default:
-                    return {
-                pane: 'pane__7',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/кравков.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1048,7 +964,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1060,7 +976,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1072,7 +988,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1084,7 +1000,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1096,7 +1012,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1108,7 +1024,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1120,7 +1036,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1132,7 +1048,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1144,7 +1060,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1156,7 +1072,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1168,7 +1084,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин смерть.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1180,7 +1096,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин рождение.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1192,7 +1108,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1204,19 +1120,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/итин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                default:
-                    return {
-                pane: 'pane__8',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/итин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1281,7 +1185,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/залыгин переезд.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1293,7 +1197,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/залыгин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1305,19 +1209,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/залыгин рождение.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                default:
-                    return {
-                pane: 'pane__9',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/залыгин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1382,7 +1274,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/зазубрин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1394,7 +1286,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/зазубрин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1406,7 +1298,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/зазубрин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1418,7 +1310,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/зазубрин война.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1430,7 +1322,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/зазубрин война.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1442,7 +1334,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/зазубрин война.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1454,7 +1346,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/зазубрин рождение.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1466,7 +1358,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/зазубрин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1478,19 +1370,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/зазубрин путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                default:
-                    return {
-                pane: 'pane__10',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/зазубрин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1555,7 +1435,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/ерошин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1567,7 +1447,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/ерошин война.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1579,7 +1459,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/ерошин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1591,7 +1471,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/ерошин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1603,7 +1483,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/ерошин путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1615,31 +1495,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/ерошин рождение.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                case 'Сотрудничество в газете "Советская Хакассия"':
-                    return {
-                pane: 'pane__11',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/ерошин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                default:
-                    return {
-                pane: 'pane__11',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/ерошин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1704,7 +1560,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/вяткин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1716,7 +1572,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/вяткин путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1728,19 +1584,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/вяткин.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                case 'Переезд, работа корректором, хроникёром и фельетонистом в томской "Сибирской жизни"':
-                    return {
-                pane: 'pane__12',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/вяткин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1752,7 +1596,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/вяткин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1764,7 +1608,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/вяткин путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1776,7 +1620,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/вяткин путешествие.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1788,19 +1632,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/вяткин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                case 'Работа в краевых журналах и газетах, в том числе в "Сибирских огнях"':
-                    return {
-                pane: 'pane__12',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/вяткин работа.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1812,7 +1644,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/вяткин рождение.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1824,19 +1656,7 @@
         rotationOrigin: 'center center',
         icon: L.icon({
             iconUrl: 'markers/вяткин.svg',
-            iconSize: [80.6060598, 80.6060598]
-        }),
-                interactive: true,
-            }
-                    break;
-                default:
-                    return {
-                pane: 'pane__12',
-        rotationAngle: 0.0,
-        rotationOrigin: 'center center',
-        icon: L.icon({
-            iconUrl: 'markers/вяткин.svg',
-            iconSize: [80.6060598, 80.6060598]
+            iconSize: [80.60597999999999, 80.60597999999999]
         }),
                 interactive: true,
             }
@@ -1864,7 +1684,7 @@
         bounds_group.addLayer(layer__12);
         map.addLayer(layer__12);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'Вяткин<br /><table><tr><td style="text-align: center;"><img src="legend/_12_АрестподоносуидоставкавОмск0.png" /></td><td>Арест по доносу и доставка в Омск</td></tr><tr><td style="text-align: center;"><img src="legend/_12_ВгостяхуалтайскогохудожникаГИЧоросГуркина1.png" /></td><td>В гостях у алтайского художника Г. И. Чорос-Гуркина</td></tr><tr><td style="text-align: center;"><img src="legend/_12_Демобилизациякакучителя2.png" /></td><td>Демобилизация как учителя</td></tr><tr><td style="text-align: center;"><img src="legend/_12_ПереездработакорректоромхроникёромифельетонистомвтомскойСибирскойжизни3.png" /></td><td>Переезд, работа корректором, хроникёром и фельетонистом в томской "Сибирской жизни"</td></tr><tr><td style="text-align: center;"><img src="legend/_12_ПоступлениевКазанскийучительскийинститут4.png" /></td><td>Поступление в Казанский учительский институт</td></tr><tr><td style="text-align: center;"><img src="legend/_12_Путешествие5.png" /></td><td>Путешествие</td></tr><tr><td style="text-align: center;"><img src="legend/_12_Путешестиенаписаниеочерковоприродежителяхихобычаяхинравах6.png" /></td><td>Путешестие, написание очерков о природе, жителях, их обычаях и нравах</td></tr><tr><td style="text-align: center;"><img src="legend/_12_РаботавгазетеУтро7.png" /></td><td>Работа в газете "Утро"</td></tr><tr><td style="text-align: center;"><img src="legend/_12_РаботавкраевыхжурналахигазетахвтомчислевСибирскихогнях8.png" /></td><td>Работа в краевых журналах и газетах, в том числе в "Сибирских огнях"</td></tr><tr><td style="text-align: center;"><img src="legend/_12_Рождение9.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_12_Эвакуациясправительственнымиучреждениями10.png" /></td><td>Эвакуация с правительственными учреждениями</td></tr><tr><td style="text-align: center;"><img src="legend/_12_11.png" /></td><td></td></tr></table>': layer__12,'Ерошин<br /><table><tr><td style="text-align: center;"><img src="legend/_11_0.png" /></td><td>-</td></tr><tr><td style="text-align: center;"><img src="legend/_11_АктивноеучастиевГражданскойвойне1.png" /></td><td>Активное участие в Гражданской войне</td></tr><tr><td style="text-align: center;"><img src="legend/_11_Детствоиюность2.png" /></td><td>Детство и юность</td></tr><tr><td style="text-align: center;"><img src="legend/_11_ЖизньпослеокончанияГражданскойвойны3.png" /></td><td>Жизнь после окончания Гражданской войны</td></tr><tr><td style="text-align: center;"><img src="legend/_11_ЗнакомствосприродойГорногоАлтая4.png" /></td><td>Знакомство с природой Горного Алтая</td></tr><tr><td style="text-align: center;"><img src="legend/_11_Рождение5.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_11_СотрудничествовгазетеСоветскаяХакассия6.png" /></td><td>Сотрудничество в газете "Советская Хакассия"</td></tr><tr><td style="text-align: center;"><img src="legend/_11_7.png" /></td><td></td></tr></table>': layer__11,'Зазубрин<br /><table><tr><td style="text-align: center;"><img src="legend/_10_0.png" /></td><td>-</td></tr><tr><td style="text-align: center;"><img src="legend/_10_Активноевключениевлитературнуюжизнь1.png" /></td><td>Активное включение в литературную жизнь</td></tr><tr><td style="text-align: center;"><img src="legend/_10_ДоконцажизниработалвГослитиздатеижурналеКолхозник2.png" /></td><td>До конца жизни работал в Гослитиздате и журнале «Колхозник»</td></tr><tr><td style="text-align: center;"><img src="legend/_10_МобилизациявармиюПавловскоеюнкерскоеучилище3.png" /></td><td>Мобилизация в армию, Павловское юнкерское училище</td></tr><tr><td style="text-align: center;"><img src="legend/_10_ПереходссолдатамииофицераминасторонукрасныхприсоединениектасеевскимпартизанамвходвКанск4.png" /></td><td>Переход с солдатами и офицерами на сторону красных, присоединение к тасеевским партизанам, вход в Канск</td></tr><tr><td style="text-align: center;"><img src="legend/_10_ПопаданиевОренбургскоевоенноеучилище5.png" /></td><td>Попадание в Оренбургское военное училище</td></tr><tr><td style="text-align: center;"><img src="legend/_10_Рождение6.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_10_Ссылкасотцом7.png" /></td><td>Ссылка с отцом</td></tr><tr><td style="text-align: center;"><img src="legend/_10_ЭвакуацияОВУ8.png" /></td><td>Эвакуация ОВУ</td></tr><tr><td style="text-align: center;"><img src="legend/_10_9.png" /></td><td></td></tr></table>': layer__10,'Залыгин<br /><table><tr><td style="text-align: center;"><img src="legend/_9_Переезд0.png" /></td><td>Переезд</td></tr><tr><td style="text-align: center;"><img src="legend/_9_Работагидрологом1.png" /></td><td>Работа гидрологом</td></tr><tr><td style="text-align: center;"><img src="legend/_9_Рождение2.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_9_3.png" /></td><td></td></tr></table>': layer__9,'Итин<br /><table><tr><td style="text-align: center;"><img src="legend/_8_Вступлениевпартиюизаведованиегубернскимотделомюстиции0.png" /></td><td>Вступление в партию и  заведование губернским отделом юстиции</td></tr><tr><td style="text-align: center;"><img src="legend/_8_ВыступлениесдокладомнаПервомвосточносибирскомнаучноисследовательскомсъезде1.png" /></td><td>Выступление с докладом на Первом восточносибирском научно-исследовательском съезде</td></tr><tr><td style="text-align: center;"><img src="legend/_8_НабортуледоколаКрасиндошелСевернымморскимпутемдоЛенинграда2.png" /></td><td>На борту ледокола «Красин» дошел Северным морским путем до Ленинграда</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Написаниепервыхстихов3.png" /></td><td>Написание первых стихов</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Отпуск4.png" /></td><td>Отпуск</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Переброшен5.png" /></td><td>Переброшен</td></tr><tr><td style="text-align: center;"><img src="legend/_8_ПосещениенадюралевомЮнкерсе6.png" /></td><td>Посещение на дюралевом «Юнкерсе»</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Поступлениеввуз7.png" /></td><td>Поступление в вуз</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Путешествиепореке8.png" /></td><td>Путешествие по реке</td></tr><tr><td style="text-align: center;"><img src="legend/_8_РаботавСибкрайиздат9.png" /></td><td>Работа в Сибкрайиздат</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Расстрел10.png" /></td><td>Расстрел</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Рождение11.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Участиевгидрографическойэкспедиции12.png" /></td><td>Участие в гидрографической экспедиции</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Участиевпереездеправительства13.png" /></td><td>Участие в переезде правительства</td></tr><tr><td style="text-align: center;"><img src="legend/_8_14.png" /></td><td></td></tr></table>': layer__8,'Кравков<br /><table><tr><td style="text-align: center;"><img src="legend/_7_Возглавлениеотделакинофикации0.png" /></td><td>Возглавление отдела кинофикации</td></tr><tr><td style="text-align: center;"><img src="legend/_7_Высланнапоселение1.png" /></td><td>Выслан на поселение</td></tr><tr><td style="text-align: center;"><img src="legend/_7_Геологоразведочныеигеографическиеэкспедиции2.png" /></td><td>Геологоразведочные и географические экспедиции</td></tr><tr><td style="text-align: center;"><img src="legend/_7_ИзбраниегласнымНижнеудинскогоуездазаведованиеИркутскимкраеведческиммузеем3.png" /></td><td>Избрание гласным Нижнеудинского уезда, заведование Иркутским краеведческим музеем</td></tr><tr><td style="text-align: center;"><img src="legend/_7_ОсвобождениепослеорестаЧК4.png" /></td><td>Освобождение после ореста ЧК</td></tr><tr><td style="text-align: center;"><img src="legend/_7_Поступлениевуниверситет5.png" /></td><td>Поступление в университет</td></tr><tr><td style="text-align: center;"><img src="legend/_7_Рождение6.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_7_7.png" /></td><td></td></tr></table>': layer__7,'Лисовский<br /><table><tr><td style="text-align: center;"><img src="legend/_6_0.png" /></td><td>-</td></tr><tr><td style="text-align: center;"><img src="legend/_6_Городюности1.png" /></td><td>Город юности</td></tr><tr><td style="text-align: center;"><img src="legend/_6_НатеплоходеСплавщикдобиралсядомыса2.png" /></td><td>На теплоходе "Сплавщик" добирался до мыса</td></tr><tr><td style="text-align: center;"><img src="legend/_6_Переезд3.png" /></td><td>Переезд</td></tr><tr><td style="text-align: center;"><img src="legend/_6_Путешествие4.png" /></td><td>Путешествие</td></tr><tr><td style="text-align: center;"><img src="legend/_6_Путешестиенаплоту5.png" /></td><td>Путешестие на плоту</td></tr><tr><td style="text-align: center;"><img src="legend/_6_Рождение6.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_6_Сплавлялсянаэвенкийскихлодкахишимках7.png" /></td><td>Сплавлялся на эвенкийских лодкахишимках</td></tr><tr><td style="text-align: center;"><img src="legend/_6_8.png" /></td><td></td></tr></table>': layer__6,'Мартышев<br /><table><tr><td style="text-align: center;"><img src="legend/_5_Возврашениепоследемобилизацииработаэнергетиком0.png" /></td><td>Возврашение после демобилизации, работа энергетиком</td></tr><tr><td style="text-align: center;"><img src="legend/_5_Получениевысшегообразования1.png" /></td><td>Получение высшего образования</td></tr><tr><td style="text-align: center;"><img src="legend/_5_РаботанаБелорецкомметаллургическомкомбинате2.png" /></td><td>Работа на Белорецком металлургическом комбинате</td></tr><tr><td style="text-align: center;"><img src="legend/_5_Рождение3.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_5_Служба4.png" /></td><td>Служба</td></tr><tr><td style="text-align: center;"><img src="legend/_5_5.png" /></td><td></td></tr></table>': layer__5,'Правдухин<br /><table><tr><td style="text-align: center;"><img src="legend/_4_ВозглавлениеСибгосиздата0.png" /></td><td>Возглавление Сибгосиздата</td></tr><tr><td style="text-align: center;"><img src="legend/_4_Окончаниеисторикофилософскогофакультета1.png" /></td><td>Окончание историко-философского факультета</td></tr><tr><td style="text-align: center;"><img src="legend/_4_Переезд2.png" /></td><td>Переезд</td></tr><tr><td style="text-align: center;"><img src="legend/_4_РаботавЧелябинскомгубернскомотделенародногообразования3.png" /></td><td>Работа в Челябинском губернском отделе народного образования</td></tr><tr><td style="text-align: center;"><img src="legend/_4_Работаучителем4.png" /></td><td>Работа учителем</td></tr><tr><td style="text-align: center;"><img src="legend/_4_Рождение5.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_4_УчебавОренбургскойгимназии6.png" /></td><td>Учеба в Оренбургской гимназии</td></tr><tr><td style="text-align: center;"><img src="legend/_4_7.png" /></td><td></td></tr></table>': layer__4,'Пушкарев<br /><table><tr><td style="text-align: center;"><img src="legend/_3_Всоставеновосибирскойделегации0.png" /></td><td>В составе новосибирской делегации</td></tr><tr><td style="text-align: center;"><img src="legend/_3_Возвращение1.png" /></td><td>Возвращение</td></tr><tr><td style="text-align: center;"><img src="legend/_3_ВозглавлениесекциидетскихписателейработазаместителемдиректораДомахудожественноговоспитаниядетейидр2.png" /></td><td>Возглавление секции детских писателей, работа заместителем директора Дома художественного воспитания детей и др.</td></tr><tr><td style="text-align: center;"><img src="legend/_3_ЗаведующийиздательскимотделомСибкрайиздата3.png" /></td><td>Заведующий издательским отделом Сибкрайиздата</td></tr><tr><td style="text-align: center;"><img src="legend/_3_Переезд4.png" /></td><td>Переезд</td></tr><tr><td style="text-align: center;"><img src="legend/_3_ПредставительСибкрайиздата5.png" /></td><td>Представитель Сибкрайиздата</td></tr><tr><td style="text-align: center;"><img src="legend/_3_Продолжениеобразования6.png" /></td><td>Продолжение образования</td></tr><tr><td style="text-align: center;"><img src="legend/_3_Рождение7.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_3_8.png" /></td><td></td></tr></table>': layer__3,'Сейфуллина<br /><table><tr><td style="text-align: center;"><img src="legend/_2_0.png" /></td><td>-</td></tr><tr><td style="text-align: center;"><img src="legend/_2_Переездвместесмужем1.png" /></td><td>Переезд вместе с мужем</td></tr><tr><td style="text-align: center;"><img src="legend/_2_Рождение2.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_2_3.png" /></td><td></td></tr></table>': layer__2,'Урманов (Тупиков)<br /><table><tr><td style="text-align: center;"><img src="legend/_1_Изданиемножествакниг0.png" /></td><td>Издание множества книг</td></tr><tr><td style="text-align: center;"><img src="legend/_1_Работавредакциигазет1.png" /></td><td>Работа в редакции газет</td></tr><tr><td style="text-align: center;"><img src="legend/_1_Рождение2.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_1_3.png" /></td><td></td></tr></table>': layer__1,"Yandex Maps 22": layer_YandexMaps22_0,}).addTo(map);
+        L.control.layers(baseMaps,{'Вяткин<br /><table><tr><td style="text-align: center;"><img src="legend/_12_АрестподоносуидоставкавОмск0.png" /></td><td>Арест по доносу и доставка в Омск</td></tr><tr><td style="text-align: center;"><img src="legend/_12_ВгостяхуалтайскогохудожникаГИЧоросГуркина1.png" /></td><td>В гостях у алтайского художника Г. И. Чорос-Гуркина</td></tr><tr><td style="text-align: center;"><img src="legend/_12_Демобилизациякакучителя2.png" /></td><td>Демобилизация как учителя</td></tr><tr><td style="text-align: center;"><img src="legend/_12_ПоступлениевКазанскийучительскийинститут3.png" /></td><td>Поступление в Казанский учительский институт</td></tr><tr><td style="text-align: center;"><img src="legend/_12_Путешествие4.png" /></td><td>Путешествие</td></tr><tr><td style="text-align: center;"><img src="legend/_12_Путешестиенаписаниеочерковоприродежителяхихобычаяхинравах5.png" /></td><td>Путешестие, написание очерков о природе, жителях, их обычаях и нравах</td></tr><tr><td style="text-align: center;"><img src="legend/_12_РаботавгазетеУтро6.png" /></td><td>Работа в газете "Утро"</td></tr><tr><td style="text-align: center;"><img src="legend/_12_Рождение7.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_12_Эвакуациясправительственнымиучреждениями8.png" /></td><td>Эвакуация с правительственными учреждениями</td></tr></table>': layer__12,'Ерошин<br /><table><tr><td style="text-align: center;"><img src="legend/_11_0.png" /></td><td>-</td></tr><tr><td style="text-align: center;"><img src="legend/_11_АктивноеучастиевГражданскойвойне1.png" /></td><td>Активное участие в Гражданской войне</td></tr><tr><td style="text-align: center;"><img src="legend/_11_Детствоиюность2.png" /></td><td>Детство и юность</td></tr><tr><td style="text-align: center;"><img src="legend/_11_ЖизньпослеокончанияГражданскойвойны3.png" /></td><td>Жизнь после окончания Гражданской войны</td></tr><tr><td style="text-align: center;"><img src="legend/_11_ЗнакомствосприродойГорногоАлтая4.png" /></td><td>Знакомство с природой Горного Алтая</td></tr><tr><td style="text-align: center;"><img src="legend/_11_Рождение5.png" /></td><td>Рождение</td></tr></table>': layer__11,'Зазубрин<br /><table><tr><td style="text-align: center;"><img src="legend/_10_0.png" /></td><td>-</td></tr><tr><td style="text-align: center;"><img src="legend/_10_Активноевключениевлитературнуюжизнь1.png" /></td><td>Активное включение в литературную жизнь</td></tr><tr><td style="text-align: center;"><img src="legend/_10_ДоконцажизниработалвГослитиздатеижурналеКолхозник2.png" /></td><td>До конца жизни работал в Гослитиздате и журнале «Колхозник»</td></tr><tr><td style="text-align: center;"><img src="legend/_10_МобилизациявармиюПавловскоеюнкерскоеучилище3.png" /></td><td>Мобилизация в армию, Павловское юнкерское училище</td></tr><tr><td style="text-align: center;"><img src="legend/_10_ПереходссолдатамииофицераминасторонукрасныхприсоединениектасеевскимпартизанамвходвКанск4.png" /></td><td>Переход с солдатами и офицерами на сторону красных, присоединение к тасеевским партизанам, вход в Канск</td></tr><tr><td style="text-align: center;"><img src="legend/_10_ПопаданиевОренбургскоевоенноеучилище5.png" /></td><td>Попадание в Оренбургское военное училище</td></tr><tr><td style="text-align: center;"><img src="legend/_10_Рождение6.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_10_Ссылкасотцом7.png" /></td><td>Ссылка с отцом</td></tr><tr><td style="text-align: center;"><img src="legend/_10_ЭвакуацияОВУ8.png" /></td><td>Эвакуация ОВУ</td></tr></table>': layer__10,'Залыгин<br /><table><tr><td style="text-align: center;"><img src="legend/_9_Переезд0.png" /></td><td>Переезд</td></tr><tr><td style="text-align: center;"><img src="legend/_9_Работагидрологом1.png" /></td><td>Работа гидрологом</td></tr><tr><td style="text-align: center;"><img src="legend/_9_Рождение2.png" /></td><td>Рождение</td></tr></table>': layer__9,'Итин<br /><table><tr><td style="text-align: center;"><img src="legend/_8_Вступлениевпартиюизаведованиегубернскимотделомюстиции0.png" /></td><td>Вступление в партию и  заведование губернским отделом юстиции</td></tr><tr><td style="text-align: center;"><img src="legend/_8_ВыступлениесдокладомнаПервомвосточносибирскомнаучноисследовательскомсъезде1.png" /></td><td>Выступление с докладом на Первом восточносибирском научно-исследовательском съезде</td></tr><tr><td style="text-align: center;"><img src="legend/_8_НабортуледоколаКрасиндошелСевернымморскимпутемдоЛенинграда2.png" /></td><td>На борту ледокола «Красин» дошел Северным морским путем до Ленинграда</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Написаниепервыхстихов3.png" /></td><td>Написание первых стихов</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Отпуск4.png" /></td><td>Отпуск</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Переброшен5.png" /></td><td>Переброшен</td></tr><tr><td style="text-align: center;"><img src="legend/_8_ПосещениенадюралевомЮнкерсе6.png" /></td><td>Посещение на дюралевом «Юнкерсе»</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Поступлениеввуз7.png" /></td><td>Поступление в вуз</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Путешествиепореке8.png" /></td><td>Путешествие по реке</td></tr><tr><td style="text-align: center;"><img src="legend/_8_РаботавСибкрайиздат9.png" /></td><td>Работа в Сибкрайиздат</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Расстрел10.png" /></td><td>Расстрел</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Рождение11.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Участиевгидрографическойэкспедиции12.png" /></td><td>Участие в гидрографической экспедиции</td></tr><tr><td style="text-align: center;"><img src="legend/_8_Участиевпереездеправительства13.png" /></td><td>Участие в переезде правительства</td></tr></table>': layer__8,'Кравков<br /><table><tr><td style="text-align: center;"><img src="legend/_7_Возглавлениеотделакинофикации0.png" /></td><td>Возглавление отдела кинофикации</td></tr><tr><td style="text-align: center;"><img src="legend/_7_Высланнапоселение1.png" /></td><td>Выслан на поселение</td></tr><tr><td style="text-align: center;"><img src="legend/_7_Геологоразведочныеигеографическиеэкспедиции2.png" /></td><td>Геологоразведочные и географические экспедиции</td></tr><tr><td style="text-align: center;"><img src="legend/_7_ИзбраниегласнымНижнеудинскогоуездазаведованиеИркутскимкраеведческиммузеем3.png" /></td><td>Избрание гласным Нижнеудинского уезда, заведование Иркутским краеведческим музеем</td></tr><tr><td style="text-align: center;"><img src="legend/_7_ОсвобождениепослеорестаЧК4.png" /></td><td>Освобождение после ореста ЧК</td></tr><tr><td style="text-align: center;"><img src="legend/_7_Поступлениевуниверситет5.png" /></td><td>Поступление в университет</td></tr><tr><td style="text-align: center;"><img src="legend/_7_Рождение6.png" /></td><td>Рождение</td></tr></table>': layer__7,'Лисовский<br /><table><tr><td style="text-align: center;"><img src="legend/_6_0.png" /></td><td>-</td></tr><tr><td style="text-align: center;"><img src="legend/_6_Городюности1.png" /></td><td>Город юности</td></tr><tr><td style="text-align: center;"><img src="legend/_6_НатеплоходеСплавщикдобиралсядомыса2.png" /></td><td>На теплоходе "Сплавщик" добирался до мыса</td></tr><tr><td style="text-align: center;"><img src="legend/_6_Переезд3.png" /></td><td>Переезд</td></tr><tr><td style="text-align: center;"><img src="legend/_6_Путешествие4.png" /></td><td>Путешествие</td></tr><tr><td style="text-align: center;"><img src="legend/_6_Путешестиенаплоту5.png" /></td><td>Путешестие на плоту</td></tr><tr><td style="text-align: center;"><img src="legend/_6_Рождение6.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_6_Сплавлялсянаэвенкийскихлодкахишимках7.png" /></td><td>Сплавлялся на эвенкийских лодкахишимках</td></tr></table>': layer__6,'Мартышев<br /><table><tr><td style="text-align: center;"><img src="legend/_5_Возврашениепоследемобилизацииработаэнергетиком0.png" /></td><td>Возврашение после демобилизации, работа энергетиком</td></tr><tr><td style="text-align: center;"><img src="legend/_5_Получениевысшегообразования1.png" /></td><td>Получение высшего образования</td></tr><tr><td style="text-align: center;"><img src="legend/_5_РаботанаБелорецкомметаллургическомкомбинате2.png" /></td><td>Работа на Белорецком металлургическом комбинате</td></tr><tr><td style="text-align: center;"><img src="legend/_5_Рождение3.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_5_Служба4.png" /></td><td>Служба</td></tr></table>': layer__5,'Правдухин<br /><table><tr><td style="text-align: center;"><img src="legend/_4_ВозглавлениеСибгосиздата0.png" /></td><td>Возглавление Сибгосиздата</td></tr><tr><td style="text-align: center;"><img src="legend/_4_Окончаниеисторикофилософскогофакультета1.png" /></td><td>Окончание историко-философского факультета</td></tr><tr><td style="text-align: center;"><img src="legend/_4_Переезд2.png" /></td><td>Переезд</td></tr><tr><td style="text-align: center;"><img src="legend/_4_РаботавЧелябинскомгубернскомотделенародногообразования3.png" /></td><td>Работа в Челябинском губернском отделе народного образования</td></tr><tr><td style="text-align: center;"><img src="legend/_4_Работаучителем4.png" /></td><td>Работа учителем</td></tr><tr><td style="text-align: center;"><img src="legend/_4_Рождение5.png" /></td><td>Рождение</td></tr><tr><td style="text-align: center;"><img src="legend/_4_УчебавОренбургскойгимназии6.png" /></td><td>Учеба в Оренбургской гимназии</td></tr></table>': layer__4,'Пушкарев<br /><table><tr><td style="text-align: center;"><img src="legend/_3_Всоставеновосибирскойделегации0.png" /></td><td>В составе новосибирской делегации</td></tr><tr><td style="text-align: center;"><img src="legend/_3_Возвращение1.png" /></td><td>Возвращение</td></tr><tr><td style="text-align: center;"><img src="legend/_3_ВозглавлениесекциидетскихписателейработазаместителемдиректораДомахудожественноговоспитаниядетейидр2.png" /></td><td>Возглавление секции детских писателей, работа заместителем директора Дома художественного воспитания детей и др.</td></tr><tr><td style="text-align: center;"><img src="legend/_3_ЗаведующийиздательскимотделомСибкрайиздата3.png" /></td><td>Заведующий издательским отделом Сибкрайиздата</td></tr><tr><td style="text-align: center;"><img src="legend/_3_Переезд4.png" /></td><td>Переезд</td></tr><tr><td style="text-align: center;"><img src="legend/_3_ПредставительСибкрайиздата5.png" /></td><td>Представитель Сибкрайиздата</td></tr><tr><td style="text-align: center;"><img src="legend/_3_Продолжениеобразования6.png" /></td><td>Продолжение образования</td></tr><tr><td style="text-align: center;"><img src="legend/_3_Рождение7.png" /></td><td>Рождение</td></tr></table>': layer__3,'Сейфуллина<br /><table><tr><td style="text-align: center;"><img src="legend/_2_0.png" /></td><td>-</td></tr><tr><td style="text-align: center;"><img src="legend/_2_Переездвместесмужем1.png" /></td><td>Переезд вместе с мужем</td></tr><tr><td style="text-align: center;"><img src="legend/_2_Рождение2.png" /></td><td>Рождение</td></tr></table>': layer__2,'Урманов (Тупиков)<br /><table><tr><td style="text-align: center;"><img src="legend/_1_Изданиемножествакниг0.png" /></td><td>Издание множества книг</td></tr><tr><td style="text-align: center;"><img src="legend/_1_Работавредакциигазет1.png" /></td><td>Работа в редакции газет</td></tr><tr><td style="text-align: center;"><img src="legend/_1_Рождение2.png" /></td><td>Рождение</td></tr></table>': layer__1,"Yandex Maps 22": layer_YandexMaps22_0,}).addTo(map);
         setBounds();
         </script>
     </body>
